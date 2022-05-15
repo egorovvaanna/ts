@@ -1,0 +1,50 @@
+.App {
+  padding: 40px;
+}
+button:hover, a:hover{
+  color: black;
+}
+button{
+  background: rgb(82, 154, 82);
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav{
+  background: rgb(82, 154, 82);
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  margin-bottom: 20px;
+  a{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  a:not(:last-child){
+    margin-right: 15px;
+  }
+
+}
+
+.userItem{
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+align-items: center;
+justify-content: space-between;
+  &:not(:first-child){
+    border-top: none;
+  }
+  button{
+    margin-left: 15px;
+  }
+}
